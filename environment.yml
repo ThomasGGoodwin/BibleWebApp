@@ -1,0 +1,8 @@
+name: Bible
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10.4
+  - Flask=2.0.1
+  - Werkzeug=2.2.2
