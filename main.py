@@ -1,6 +1,9 @@
 from flask import Flask, render_template, url_for, request
+import database
 
 app = Flask(__name__)
+
+db = database.initialize()
 
 @app.route("/")
 def index():
